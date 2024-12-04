@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1733285420768" clover="3.2.0">
-  <project timestamp="1733285420768" name="All files">
-    <metrics statements="36" coveredstatements="33" conditionals="8" coveredconditionals="6" methods="10" coveredmethods="10" elements="54" coveredelements="49" complexity="0" loc="36" ncloc="36" packages="2" files="3" classes="3"/>
+<coverage generated="1733286303734" clover="3.2.0">
+  <project timestamp="1733286303735" name="All files">
+    <metrics statements="36" coveredstatements="34" conditionals="8" coveredconditionals="7" methods="10" coveredmethods="10" elements="54" coveredelements="51" complexity="0" loc="36" ncloc="36" packages="2" files="3" classes="3"/>
     <package name="services">
-      <metrics statements="21" coveredstatements="18" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <metrics statements="21" coveredstatements="19" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
       <file name="haveibeenpwned.js" path="C:\Users\USER\OneDrive\Escritorio\full stack\password\src\services\haveibeenpwned.js">
-        <metrics statements="21" coveredstatements="18" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <metrics statements="21" coveredstatements="19" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="13" count="5" type="stmt"/>
-        <line num="14" count="5" type="stmt"/>
-        <line num="15" count="5" type="stmt"/>
-        <line num="16" count="5" type="stmt"/>
-        <line num="18" count="5" type="stmt"/>
-        <line num="19" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-        <line num="24" count="10" type="stmt"/>
-        <line num="25" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="19" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="24" count="13" type="stmt"/>
+        <line num="25" count="5" type="cond" truecount="1" falsecount="1"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
-        <line num="30" count="4" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="43" count="9" type="stmt"/>
-        <line num="44" count="9" type="stmt"/>
-        <line num="45" count="9" type="stmt"/>
-        <line num="46" count="9" type="stmt"/>
-        <line num="47" count="180" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="43" count="11" type="stmt"/>
+        <line num="44" count="11" type="stmt"/>
+        <line num="45" count="11" type="stmt"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="47" count="220" type="stmt"/>
       </file>
     </package>
     <package name="utils">

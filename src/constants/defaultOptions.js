@@ -1,5 +1,6 @@
+// src\constants\defaultOptions.js
 export const DEFAULT_OPTIONS = {
-    minLength: 8,
+    minLength: 15,
     maxLength: 128,
     requireLowercase: true,
     requireUppercase: true,
