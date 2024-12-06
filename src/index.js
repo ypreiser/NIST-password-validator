@@ -1,3 +1,4 @@
+// src\index.js
 import { DEFAULT_OPTIONS } from "./constants/defaultOptions";
 import { BlacklistValidator } from "./validators/blacklistValidator";
 import { CharacterValidator } from "./validators/characterValidator";
@@ -38,16 +39,15 @@ export class PasswordValidator {
     if (!blacklistResult.isValid) {
       results.errors.push(blacklistResult.error);
     }
+    
     // Breach validation
     try {
-      const breachCount = await HaveIBeenPwnedService.checkPassword(password);
-      if (breachCount > 0) {
-        results.isValid = false;
-        results.errors.push(`Password found in ${breachCount} data breaches`);
-        results.breachCount = breachCount;
+      const breachCheck = await HaveIBeenPwnedService.checkPassword(password);
+      if (breachCheck) {
+        results.errors.push(`Password has been breached`);
+        results.breachCount = breachCheck;
       }
     } catch (error) {
-      results.isValid = false;
       results.errors.push(error.message);
     }
     results.isValid = results.isValid && results.errors.length === 0;

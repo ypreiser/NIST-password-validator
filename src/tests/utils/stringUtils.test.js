@@ -1,9 +1,11 @@
-import { escapeRegExp } from '../utils/stringUtils';
+// src\tests\utils\stringUtils.test.js
+
+import { escapeRegExp } from '../../utils/stringUtils';
 
 describe('escapeRegExp', () => {
   test('should escape special regex characters', () => {
     const input = '.*+?^${}()|[]\\';
-    const expectedOutput = '\\.\\*\\+\\?\\^\\$\\{\\}\\(\\)\\|\\[\\]\\'; // Correctly escaped
+    const expectedOutput = '\\.\\*\\+\\?\\^\\$\\{\\}\\(\\)\\|\\[\\]\\\\'; // Corrected expected output
     expect(escapeRegExp(input)).toBe(expectedOutput);
   });
 

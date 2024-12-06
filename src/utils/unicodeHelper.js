@@ -1,3 +1,4 @@
+// src\utils\unicodeHelper.js
 import { PATTERNS } from '../constants/regex';
 
 export class UnicodeHelper {
